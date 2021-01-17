@@ -1,4 +1,4 @@
-@media only screen and (device-width : 360px) and (device-height : 760px) {
+@media only screen and (device-width : 360px) and (device-height : 760px) and (-webkit-device-pixel-ratio : 4) {
 
     @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap');
 
