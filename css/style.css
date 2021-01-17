@@ -1,4 +1,4 @@
-@media screen and (min-width: 660px) {
+@media screen and (min-width: 373px) {
     @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap');
 
     * {
@@ -44,9 +44,10 @@
     }
 
     .navbarTop li a {
-        padding: 10px;
+        padding: 5px;
+        padding-left: 10px;
         color: #fff;
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .appName a {
@@ -219,7 +220,7 @@
         margin: 0;
         padding: 0;
         display: flex;
-        s justify-content: flex-start;
+        justify-content: flex-start;
         align-items: center;
     }
 
