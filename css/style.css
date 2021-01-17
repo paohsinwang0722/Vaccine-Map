@@ -1,4 +1,5 @@
-@media screen and (min-width: 330px) {
+@media only screen and (device-width : 360px) and (device-height : 760px) {
+
     @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap');
 
     * {
@@ -47,13 +48,13 @@
         padding: 5px;
         padding-left: 10px;
         color: #fff;
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .appName a {
         padding: 5px;
-        font-size: 20px;
-        font-weight: 600;
+        font-size: 18px;
+        font-weight: bold;
         color: #fff;
         text-decoration: none;
         display: flex;
@@ -99,11 +100,12 @@
     }
 
     .navbarBottom li i {
-        font-size: 26px;
+        font-size: 18px;
         margin-bottom: 5px;
     }
 
     .navbarBottom li svg {
+        height: 18px;
         margin-bottom: 5px;
     }
 
@@ -113,7 +115,7 @@
 
     /* 疫苗地圖 */
     .container i {
-        font-size: 20px;
+        font-size: 18px;
         color: #2897ca;
     }
 
@@ -131,14 +133,15 @@
     }
 
     .container {
+        width: 100%;
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        padding: 2px 8px;
+        padding: 2px;
     }
 
     .item {
-        width: 356px;
+        width: 1000px;
         margin: 5px auto;
         padding: 5px;
         padding-bottom: 0;
