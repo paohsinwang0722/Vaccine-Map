@@ -492,7 +492,7 @@
     /* 檢查貨車位置 */
 
     .container .item-min {
-        width: 356px;
+        width: 1000px;
         height: 300px;
         border: 1px solid #ddd;
         border-radius: 10px;
@@ -624,7 +624,7 @@
     }
 
     .card {
-        width: 356px;
+        width: 360px;
         margin: 5px auto;
         padding: 10px;
         border-radius: 20px;
