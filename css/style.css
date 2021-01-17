@@ -141,7 +141,7 @@
     }
 
     .item {
-        width: 100%;
+        width: 1000px;
         margin: 5px auto;
         padding: 5px;
         padding-bottom: 0;
@@ -291,7 +291,7 @@
 
     /*地圖與營業時間標題  */
     .itemImg {
-        width: 100%;
+        width: 1000px;
         height: 300px;
         border: 1px solid #ddd;
         border-radius: 10px;
