@@ -301,11 +301,6 @@
         box-shadow: 1px 2px 5px #dddddd;
     }
 
-
-
-
-
-
     /* 地址 */
 
     .address-cli {
@@ -525,19 +520,18 @@
     }
 
     /* 紀錄 */
-    /* .record {
+    .record {
         background-color: #26c1f0;
         height: 55px;
         width: 100%;
         top: 0;
         position: fixed;
         z-index: 1000;
-        align-items: center;
         text-align: center;
         line-height: 55px;
         color: #fff;
         font-weight: bold;
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .record-reserve {
@@ -577,10 +571,11 @@
     .march {
         border-bottom: 1px solid #ddd;
         border-top: 1px solid #ddd;
-        height: 350px;
-        font-size: 18px;
+        height: 100px;
+        font-size: 12px;
         box-shadow: 2px 2px 5px rgba(165, 165, 165, 0.248);
         color: rgb(170, 170, 170);
+        background-color: #fff;
     }
 
     .march td a {
@@ -602,19 +597,24 @@
         padding: 10px;
     }
 
-
+    .march .reserve-past a {
+        background-color: rgb(170, 170, 170);
+        padding: 10px 14px;
+        border-radius: 50%;
+        color: #fff;
+    }
 
     .march .reserve-focus a {
         background-color: #26c1f0;
-        border-radius: 10px;
-        padding: 6px;
+        padding: 10px;
+        border-radius: 50%;
         color: #fff;
     }
 
 
 
     .record-card {
-        margin-top: 531px;
+        margin-top: 430px;
 
     }
 
@@ -643,7 +643,7 @@
         align-items: center;
     }
 
-    h6 {
+    h5 {
         color: #2897ca;
     }
 
@@ -658,8 +658,9 @@
 
     }
 
-    .record-card h6 {
+    .record-card h5 {
         margin: 10px;
+        font-weight: bold;
     }
 
     .past-list,
@@ -667,7 +668,8 @@
     .past h4,
     .past li i {
         color: rgb(170, 170, 170);
-    } */
+    }
+
 
     /* 圖像化地圖 */
     .navbarTop .list-ul {
@@ -793,7 +795,7 @@
     }
 
     /*收藏名單  */
-    /* .heart-record {
+    .heart-record {
         margin-top: 100px;
         display: flex;
         justify-content: center;
@@ -802,25 +804,14 @@
     }
 
 
-    .heart-record svg {
-        width: 25px;
-        fill: #2897ca;
+    .heart-record i {
+        font-size: 18px;
+        color: #2897ca;
     }
 
     .heart-record a {
         text-decoration: none;
         color: rgb(38, 38, 38);
-    }
-
-    .item {
-        width: 356px;
-        margin: 5px auto;
-        padding: 5px;
-        background-color: #fff;
-        border-radius: 10px;
-        bottom: 1px solid #dddddd;
-        box-shadow: 2px 3px 5px #dddddd;
-        border: 0.5px solid #ddd;
     }
 
     .clinic,
@@ -831,30 +822,17 @@
         align-items: center;
     }
 
-    .opened .record-price {
-        display: flex;
-        justify-content: space-around;
-        align-items: flex-end;
-        position: relative;
-        left: 48px;
-        font-size: 10px;
 
-    }
 
-    .pubEx,
-    .ownEx,
     .check {
-        border: 0.5px solid hsl(167, 79%, 50%);
         background-color: hsl(167, 79%, 50%);
         border-radius: 19px;
         padding: 2px 10px;
-        margin-bottom: 3px;
-        margin: 0 5px;
+        margin-left: 5px;
         text-align: center;
         align-items: center;
         color: #fff;
         font-weight: bold;
-
     }
 
     .pub-only,
@@ -864,12 +842,12 @@
         color: rgb(119, 119, 119);
     }
 
-    .nothing svg {
-        fill: rgb(119, 119, 119);
-    } */
+    .nothing i {
+        color: rgb(119, 119, 119);
+    }
 
     /* 預約提醒 */
-    /* .remind-time {
+    .remind-time {
         padding-left: 10px;
     }
 
@@ -944,11 +922,11 @@
         display: flex;
         justify-content: flex-end;
         align-items: flex-end;
-    } */
+    }
 
     /* 篩選條件 */
 
-    /* .filter-form {
+    .filter-form {
         width: 100%;
         height: 798px;
         margin-top: 55px;
@@ -1014,5 +992,5 @@
         padding: 400px 15%;
         position: fixed;
         left: 0;
-    } */
+    }
 }
